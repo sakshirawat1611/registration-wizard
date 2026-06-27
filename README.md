@@ -6,7 +6,7 @@ A multi-step registration form built with React and Vite as part of an engineeri
 
 ## Live Demo
 
-Deployed on Vercel — link will be added after deployment.
+Deployed on Vercel — (https://registration-wizard-black.vercel.app/)
 
 GitHub Repository: https://github.com/sakshirawat1611/registration-wizard
 
@@ -158,6 +158,8 @@ All project setup, file creation, package installation, Git operations, and depl
 
 Practising CMD throughout this project built confidence with intermediate-level terminal operations including path navigation, command chaining, and reading CLI output to debug issues.
 
+### Console-Driven Debugging Approach
+Throughout development, `console.log()` was used strategically at every stage to verify data flow before wiring up the UI. After each step navigation, the full `formData` object was logged to confirm state was updating correctly. On final submission, the complete payload was logged to the console before the success screen was connected. This approach of verifying data in the console before building the visual layer is a professional debugging habit used in real engineering teams.
 ---
 
 ## YouTube Resources
